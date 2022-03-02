@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    background-color: black;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+  margin: auto;
+  margin: 0,auto;
+  
+}
+
+.title-container{ 
+    text-align: center;
+}
+
+.board-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+#board{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.box{
+    border: 3px solid aqua;
+    border-radius: 4px;
+    width: 80px;
+    height: 80px;
+}
